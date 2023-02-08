@@ -1,0 +1,240 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+.hr{
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px black;
+    border-radius: 12px;
+}
+.hr_1{
+    border: 2px solid gray;
+    box-shadow: 2px 2px 2px gray;
+    border-radius: 12px;
+}
+
+#Nav{
+    background-color: #fff;
+  /*background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%); */
+}
+
+#Home {
+    background: rgb(37,42,52) !important;
+}
+
+ #About {
+    background: rgb(37,42,52) !important;
+    color : white;
+    /* background: rgb(37,42,52) !important;
+    background: linear-gradient(0deg, rgba(37,42,52,1) 0%, rgba(255,46,99,1) 100%) !important; */
+    /* background-color: #8EC5FC !important; */
+/* background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%) !important; */
+padding-bottom: 100px;
+
+}
+
+#Work{
+    padding-bottom: 100px;
+}
+
+#Footer{
+    background: rgb(37,42,52) !important;
+}
+
+.nav_main > a{
+    width: 60%;
+}
+
+.nav_main > a > img{
+    width: 200px;
+    height: 50px;
+    object-fit: cover;
+}
+
+.nav_links_re{
+    font-size: 1.5rem !important;
+    font-weight: 600 !important;
+    padding-right: 22px !important;
+    padding-left: 22px !important;
+}
+
+/* EAEAEA */
+#Home{
+   padding-top: 50px;
+   padding-bottom: 50px;
+}
+
+.card{
+    cursor: pointer;
+    box-shadow: 10px 10px 10px black;
+}
+.card:hover{
+    box-shadow: 10px 10px 10px purple;
+    transition: all 0.2s;
+}
+
+.home_content_main{
+    width: 100%;
+}
+
+.home_content_0
+{
+    display: flex;
+    flex-direction: column;
+    padding-top: 150px;
+}
+.home_content_main > img{
+    width: 50px;
+    height: 50px;
+}
+
+.home_content{
+    width: 100%;
+    color: white;
+}
+
+.home_content_portfolio{
+    width: 100%;
+}
+
+.home_content_portfolio > img{
+    width: 500px;
+    height: 600px;
+}
+
+.Work_logo{
+    width: 100%;
+    display: flex;
+    padding-top: 100px;
+    gap: 10px
+}
+
+.Work_logo > img{
+    width: 50px;
+    height: 50px;
+}
+
+.About_logo{
+    width: 100%;
+    display: flex;
+    padding-top: 100px;
+    gap: 10px;
+}
+
+.About_logo > img{
+    width: 50px;
+    height: 50px;
+}
+.Skillsets_logo{
+    width: 100%;
+    display: flex;
+    margin-top: 100px;
+    gap: 10px;
+}
+
+.Skillsets_logo > img{
+    width: 50px;
+    height: 50px;
+}
+
+#Contact{
+    padding-bottom: 100px;
+}
+
+.Contact_logo{
+    width: 100%;
+    display: flex;
+    padding-top: 100px;
+    gap: 10px;
+}
+
+.Contact_logo > img{
+    width: 50px;
+    height: 50px;
+}
+
+.work_card_op{
+    opacity: 0.4;
+    cursor: pointer;
+}
+
+.contact_btn_image_container{
+    width: 100%;
+}
+.contact_btn_image{
+    width: 35px;
+    margin-right: 5px;
+}
+
+.Contact_btn{
+    padding: 10px 30px;
+    border-radius:15px ;
+    background-color: black;
+    width: 250px;
+    outline: 0;
+    /* transition: border-radius 1s; */
+}
+
+.Contact_btn > a{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    border: 0;
+    outline: 0;
+}
+
+.Contact_btn>a:hover{
+    color:white;
+}
+
+.Contact_btn:hover{
+    border-radius: 2px;
+    transition: all 1s;
+}
+
+
+
+.footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;            
+}
+
+.footer > p {
+    color : white;
+    text-align: center;
+    padding-top: 7px;
+}
+
+/* // Media Queries */
+
+@media screen and (max-width: 540px ){
+    #Home{
+        margin-top: -130px;
+    }
+    .personal_image{
+        height: 500px !important;
+    }
+
+    .Work_logo{
+        justify-content: flex-start;
+    }
+
+    .Work_logo > h1{
+        margin-top: 10px;
+    }
+
+    #Home{
+        padding-top: 0px;
+        margin-top: 10px;
+    }
+
+    .card{
+        box-shadow: 0px 0px 7px black;
+    }
+}
